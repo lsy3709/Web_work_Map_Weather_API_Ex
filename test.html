@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    
+    // 1. script 엘리먼트 생성
+    const script_element = document.createElement('script');
+    
+    // 2. src속성값을 설정: "extra.js"로 지정
+    script_element.setAttribute('src', 'extra.js');
+    
+    // 3. head 태그의 자식으로 scrpt엘리먼트 추가
+    document.querySelector('head').appendChild(script_element);
+    
+    </script>
+</body>
+</html>

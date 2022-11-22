@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://kit.fontawesome.com/6e95c6aa7d.js" crossorigin="anonymous"></script>
+  <script defer src="weather.js"></script>
+
+</head>
+<body>
+  <div id="seoul_display">
+  <div style="background-color : rgb(101, 178, 255); padding : 40px;color : #fff; height : 110px">
+    <div style="float : left;">
+        <div class="weather_icon"></div>
+    </div><br>
+
+    <div style="float : right; margin : -5px 0px 0px 60px; font-size : 11pt">
+            <div class="temp_min"></div>
+            <div class="temp_max"></div>
+            <div class="humidity"></div>
+            <div class="wind"></div>
+            <div class="cloud"></div>
+    </div>
+    <div style="float : right; margin-top : -45px;">
+        <div class="current_temp" style="font-size : 50pt"></div>
+        <div class="weather_description" style="font-size : 20pt"></div>
+        <div class="city" style="font-size : 13pt"></div>
+    </div>
+</div>
+</div>
+<br>
+<div id="busan_display">
+<div style="background-color : rgb(101, 255, 178); padding : 40px;color : #fff; height : 110px">
+  <div style="float : left;">
+      <div class="weather_icon"></div>
+  </div><br>
+
+  <div style="float : right; margin : -5px 0px 0px 60px; font-size : 11pt">
+          <div class="g_temp_min"></div>
+          <div class="g_temp_max"></div>
+          <div class="g_humidity"></div>
+          <div class="g_wind"></div>
+          <div class="g_cloud"></div>
+  </div>
+  <div style="float : right; margin-top : -45px;">
+      <div class="g_current_temp" style="font-size : 50pt"></div>
+      <div class="g_weather_description" style="font-size : 20pt"></div>
+      <div class="g_city" style="font-size : 13pt"></div>
+  </div>
+</div>
+</div>
+</body>
+</html>
